@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: rgba(25, 16, 6, 0.7);
+  }
+  
+  h1, 
+  h2,
+  .open-btn,
+  .open-btn2,
+  .open-btn3 {
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  .certificate-link,
+  .code {
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    display: none;
+  }
+}
+
+@layer components {
+  .nav-item,
+  .a-link {
+    position: relative;
+  }
+
+  .nav-item::after,
+  .a-link::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: transparent;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+  }
+
+  .a-link::after {
+    bottom: -1px;
+    height: 2px;
+  }
+
+  .nav-item:hover::after,
+  .a-link:hover::after {
+    opacity: 1;
+    width: 100%;
+    background-color: rgba(249, 160, 66, 0.7);
+    transition: all .3s ease-in-out;
+  }
+
+  @media (max-width: 1171px) {
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide {
+      max-width: 350px;
+    }
+  }
+
+  @media (max-width: 1071px) {
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide {
+      max-width: 300px;
+    }
+  }
+
+  @media (max-width: 929px) {
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide {
+      max-width: 260px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide {
+      max-width: 220px;
+    }
+  }
+
+  @media (max-width: 526px) {
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide {
+      max-width: 320px;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide {
+      max-width: 220px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+
+    .nav-item::after,
+    .a-link::after {
+      display: none;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      max-width: 480px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .container {
+      max-width: 320px;
+    }
+  }
+}
