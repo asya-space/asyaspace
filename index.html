@@ -4,402 +4,59 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="frontend, developer, job, git, html, css, javascript, tailwind, portfolio">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-        <link type="image/x-icon" href="img/bat.svg" rel="shortcut icon">
+        <title>asyaspace</title>
+        <link type="image/x-icon" href="/logo.webp" rel="shortcut icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/css/main.css">
     </head>
-    <body class="bg-body-pattern bg-no-repeat main-color bg-top mx-auto media-sweep:bg-tablet-img media-little:bg-mobile-img">
-        <header class="header bg-trans mb-10 max-width-[100%]" id="back-top">
-            <div class="container py-2 px-12 max-w-[80rem] media-sweep:pl-5 media-sweep:pr-5 media-little:pl-3 media-little:pr-3">
-                <div class="flex justify-between">
-                    <div class="logo cursor-default">
-                        <h2 class="text-xl text-white font-bold tracking-wider">Asya L.</h2>
-                    </div>
-                    <nav class="nav flex ml-auto media-sweep:hidden media-sweep:ml-0">
-                        <ul class="flex media-maxi:max-w-[600px] media-maxi:flex-wrap media-sweep:flex-col">
-                            <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#about">About</a></li>
-                            <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#contacts">Contacts</a></li>
-                            <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#portfolio">Portfolio</a></li>
-                            <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#certificates">Certificates</a></li>
-                            <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#education">Education</a></li>
-                            <li class="nav-item"><a class="text-white hover:text-code" href="#experience">Experience</a></li>
-                        </ul>
-                    </nav>
-                    <div class="hidden burger media-sweep:flex media-sweep:flex-col media-sweep:justify-between w-[25px] h-[20px] ml-auto cursor-pointer">
-                        <div class="burger__line w-[25px] h-[2px] bg-white"></div>
-                        <div class="burger__line w-[25px] h-[2px] bg-white"></div>
-                        <div class="burger__line w-[25px] h-[2px] bg-white"></div>
-                    </div>
-                </div>
-                <div class="hidden close-menu media-sweep:absolute top-[2px] right-[10px]">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                    </svg>                      
-                </div>
-            </div>
-        </header>
-        <main>
-            <section class="about-me">
-                <div class="container grid grid-cols-3 min-h-[18rem] gap-5 pl-10 pr-10 max-w-[80rem] mb-12 media-sweep:grid-cols-2 media-sweep:pl-5 media-sweep:pr-5 media-little:grid-cols-1 media-little:pl-3 media-little:pr-3 media-little:gap-3">
-                    <div class="about pl-0" id="about">
-                        <h1 class="text-white pb-5 font-bold tracking-wider cursor-default">Junior Frontend Developer</h1>
-                        <p class="text-white max-w-[400px] cursor-default">I'm a self-taught web developer. I have also been a content manager and website administrator. Furthermore, I have more than a year of experience in web development. I specialize in responsive design, HTML5, CSS3, and JavaScript. I'm also ready for remote work.</p>
-                    </div>
-                    <div class="swiper max-w-[24rem] h-[18rem]">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide max-w-[24rem] h-[18rem]">
-                                <a href="https://docs.google.com/presentation/d/1L0QgODKJmqkGK4wzace5853OH79x1AO5/edit?usp=sharing&ouid=114123042424947031566&rtpof=true&sd=true" target="_blank" rel="noreferrer noopener">
-                                    <img src="img/img-1.png" alt="hiking">
-                                </a>
+    <body>
+        <div class="relative min-h-screen overflow-hidden bg-black">
+
+            <!-- AURORA -->
+            <div class="aurora"></div>
+
+            <!-- CONTENT -->
+            <div class="relative z-10">
+                <header class="header bg-trans mb-10 max-width-[100%] mt-4" id="back-top">
+                    <div class="container py-2 px-12 max-w-[80rem] media-sweep:pl-5 media-sweep:pr-5 media-little:pl-3 media-little:pr-3">
+                        <div class="flex justify-between">
+                            <div class="logo cursor-default flex items-baseline gap-1">
+                                <div><img src="/logo.webp" alt="alpha-letter" width="34" height="30"></div>
+                                <h2 class="text-xl text-white font-bold tracking-wider">sya L.</h2>
                             </div>
-                            <div class="swiper-slide max-w-[24rem] h-[18rem]">
-                                <a href="https://docs.google.com/presentation/d/1L0QgODKJmqkGK4wzace5853OH79x1AO5/edit?usp=sharing&ouid=114123042424947031566&rtpof=true&sd=true" target="_blank" rel="noreferrer noopener">
-                                    <img src="img/img-2.png" alt="musician-blog">
-                                    </a>
-                            </div>
-                            <div class="swiper-slide max-w-[24rem] h-[18rem]">
-                                <a href="https://docs.google.com/presentation/d/1L0QgODKJmqkGK4wzace5853OH79x1AO5/edit?usp=sharing&ouid=114123042424947031566&rtpof=true&sd=true" target="_blank" rel="noreferrer noopener">
-                                    <img src="img/img-3.png" alt="bon-voyage">
-                                </a>
-                            </div>
-                            <div class="swiper-slide max-w-[24rem] h-[18rem]">
-                                <a href="https://docs.google.com/presentation/d/1L0QgODKJmqkGK4wzace5853OH79x1AO5/edit?usp=sharing&ouid=114123042424947031566&rtpof=true&sd=true" target="_blank" rel="noreferrer noopener">
-                                    <img src="img/img-4.png" alt="cakes">
-                                </a>
+                            <nav class="nav flex ml-auto media-sweep:hidden media-sweep:ml-0 items-end">
+                                <ul class="flex media-maxi:max-w-[600px] media-maxi:flex-wrap media-sweep:flex-col">
+                                    <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#about">About</a></li>
+                                    <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#projects">Projects</a></li>
+                                    <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#contacts">Contact Me</a></li>
+                                    <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#github">GitHub</a></li>
+                                </ul>
+                            </nav>
+                            <div class="hidden burger media-sweep:flex media-sweep:flex-col media-sweep:justify-between w-[25px] h-[20px] ml-auto cursor-pointer">
+                                <div class="burger__line w-[25px] h-[2px] bg-white"></div>
+                                <div class="burger__line w-[25px] h-[2px] bg-white"></div>
+                                <div class="burger__line w-[25px] h-[2px] bg-white"></div>
                             </div>
                         </div>
-    
-                        <div class="swiper-button-prev">
-                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 12L10 6M4 12L10 18M4 12H14.5M20 12H17.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <div class="swiper-button-next">
-                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 12H6.5M20 12L14 6M20 12L14 18M20 12H9.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <div class="hidden close-menu media-sweep:absolute top-[2px] right-[10px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/>
                             </svg>
                         </div>
                     </div>
-                    <div class="text-white max-w-[400px] self-end">
-                        <h2 class="mb-2 text-white text-lg font-bold tracking-wider cursor-default">Skills</h2>
-                        <ul class="flex mb-2 max-w-[400px]">
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/HTML-f59b17?style=for-the-badge&link=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHTML" width="60" height="28" alt="html">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/CSS-4BAAF0?style=for-the-badge" width="48" height="28" alt="CSS">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/Figma-D572FD?style=for-the-badge" width="67" height="28" alt="CSS">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/SASS-F681B8?style=for-the-badge" width="58" height="28" alt="SASS">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/GIT-0A0103?style=for-the-badge" width="47" height="28" alt="GIT">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/Photoshop-1f6ef0?style=for-the-badge" width="105" height="28" alt="Photoshop">
-                            </li>
-                        </ul>
-                        <ul class="flex max-w-[500px]">
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/BOOTSTRAP-F481F6?style=for-the-badge" width="103" height="28" alt="Bootstrap">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/GULP-E61E1E?style=for-the-badge" width="58" height="28" alt="Gulp">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/WCAG2.0-4200FF?style=for-the-badge" width="84" height="28" alt="Accessibility">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/JS-FEFE0D?style=for-the-badge" width="38" height="28" alt="JavaScript">
-                            </li>
-                            <li class="mr-2">
-                                <img src="https://img.shields.io/badge/Tailwind-90B2FB?style=for-the-badge" width="93" height="28" alt="TailwindCSS">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-           
-            <section class="education" id="education">
-                <div class="container grid grid-cols-3 gap-5 pl-10 pr-10 max-w-[80rem] min-h-[18rem] mb-28 media-sweep:grid-cols-2 media-sweep:pl-5 media-sweep:pr-5 media-little:grid-cols-1 media-little:pl-3 media-little:pr-3 media-little:gap-3">
-                    <div class="border-dark bg-black p-5 mb-7 cursor-default">
-                        <h2 class="mb-5 text-white underline underline-offset-2 text-2xl font-bold hover:text-code transition-colors">CV</h2>
-                        <div class="mb-5">
-                            <p class="text-base text-basic font-normal leading-6 italic mb-2" id="experience">Job experience</p>
-                            <a class="block hover:shadow-yellowShadow" href="src/Asya-CV.pdf" target="_blank" rel="noreferrer noopener"><img src="img/cv.png" alt="CV" width="387" height="334"></a>
+                </header>
+                
+                <main>
+                    <section class="hero" id="about">
+                        <div>
+
                         </div>
-                    </div>
-                    <div class="border border-dark bg-black p-5 mb-7 cursor-default" id="certificates">
-                        <h2 class="mb-2 text-white text-xl font-bold underline underline-offset-2 hover:text-code transition-colors">Certificates:</h2>
-                        <ul>
-                            <li class="mb-2">
-                                <div>
-                                    <a class="block text-base text-basic font-normal leading-6 italic" href="https://www.freecodecamp.org/" target="_blank" rel="noreferrer noopener">freecodecamp</a>
-                                    <a class="certificate-link block text-base text-white font-medium leading-6 hover:text-code transition-colors" href="https://www.freecodecamp.org/certification/AsyaLebedeva/responsive-web-design" target="_blank" rel="noreferrer noopener">&#x201C;Responsive Web Design&#x201D;</a>
-                                    <span class="text-base inline-block text-white font-normal leading-6"><time datetime="2022-06-01">Jun 2022</time>&#xA0;&#8211;&#xA0;<time datetime="2022-10-03">Oct 2022</time></span>
-                                </div>
-                            </li>
-                            <li class="mb-2">
-                                <div>
-                                    <a class="block text-base text-basic font-normal leading-6 italic" href="https://stepik.org" target="_blank" rel="noreferrer noopener">Stepik</a>
-                                    <a class="certificate-link block text-base text-white font-medium leading-6 hover:text-code transition-colors" href="https://stepik.org/cert/2331310?lang=en" target="_blank" rel="noreferrer noopener">&#x201C;Immersion in JavaScript&#x201D;<br>(for Beginners)</a>
-                                    <span class="text-base inline-block text-white font-normal leading-6"><time datetime="2024-01-24">Jan 2024</time></span>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <a class="block text-base text-basic italic font-normal leading-6" href="https://stepik.org" target="_blank" rel="noreferrer noopener">Stepik</a>
-                                    <a class="certificate-link block text-base text-white font-medium leading-6 hover:text-code transition-colors" href="https://stepik.org/cert/2327593?lang=en" target="_blank" rel="noreferrer noopener">&#x201C;Indie course on HTML and CSS&#x201D;</a>
-                                    <span class="text-base inline-block text-white font-normal leading-6"><time datetime="2024-01-31">Jan 2024</time></span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="border border-dark bg-black p-5 mb-7 media-sweep:hidden">
-                        <div class="cursor-default">
-                            <h2 class="mb-5 text-white text-xl font-bold underline underline-offset-2 hover:text-code transition-colors">Language</h2>
-                            <ul>
-                                <li>
-                                    <p class="text-base text-white font-bold">&bull; English</p>
-                                    <span class="text-sm font-normal text-fonta italic">(Professional Working Proficiency)</span>
-                                </li>
-                                <li>
-                                    <p class="text-base text-white font-bold">&bull; Russian</p>
-                                    <span class="text-sm font-normal text-fonta italic">(Native)</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="cursor-default">
-                            <h2 class="mb-7 text-white text-xl font-bold underline underline-offset-2 hover:text-code transition-colors">Interests</h2>
-                            <ul class="flex mb-3">
-                                <li class="mr-3">
-                                    <img src="https://img.shields.io/badge/Electronic%20music-F9401B?style=for-the-badge" alt="electronic-music" width="156" height="28">
-                                </li>
-                                <li class="mr-3">
-                                    <img src="https://img.shields.io/badge/IT-FC9E3A?style=for-the-badge" alt="IT" width="38" height="28">
-                                </li>
-                                <li class="mr-3">
-                                    <img src="https://img.shields.io/badge/Fitness-FAF31A?style=for-the-badge" alt="fitness" width="80" height="28">
-                                </li>
-                                <li class="mr-3">
-                                    <img src="https://img.shields.io/badge/Reading%20books-12D32?style=for-the-badge" alt="reading" width="135" height="28">
-                                </li>
-                            </ul>
-                            <ul class="flex">
-                                <li class="mr-3">
-                                    <img src="https://img.shields.io/badge/Languages-39CDEE?style=for-the-badge" alt="languages" width="103" height="28">
-                                </li>
-                                <li class="mr-3">
-                                    <img src="https://img.shields.io/badge/Ecology-396DEE?style=for-the-badge" alt="ecology" width="84" height="28">
-                                </li>
-                                <li>
-                                    <img src="https://img.shields.io/badge/Mental%20healthy-CD39EE?style=for-the-badge" alt="mental-healthy" width="142" height="28">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="projects mb-5" id="portfolio">
-                <div class="container max-w-[80rem] pl-10 pr-10 media-sweep:pl-5 media-sweep:pr-5 media-little:pl-3 media-little:pr-3 media-little:gap-3 cursor-default">
-                    <h2 class="mb-12 text-white underline underline-offset-2 text-4xl text-center font-bold hover:text-code transition-colors tracking-wider">Projects</h2>
-                    <div class="grid grid-cols-3 gap-4 max-w-[80rem] min-h-[18rem] media-sweep:grid-cols-2 media-little:grid-cols-1">
-                        <div class="mb-8 p-5 border border-dark bg-grey">
-                            <h2 class="block text-base text-basic italic mb-2 font-bold leading-6 hover:text-code transition-colors">Boutique de brownies</h2>
-                            <a class="block mb-7 hover:shadow-yellowShadow" href="https://asya-space.github.io/Boutique-de-brownies/" target="_blank" rel="noreferrer noopener">
-                                <img width="387" height="334" src="img/pic-4.png" alt="cupcakes">
-                            </a>
-                            <span class="text-xs text-end block text-white font-normal leading-6"><time datetime="2021-01-01">Jan 2021</time>&#xA0;&#8211;&#xA0;<time datetime="2021-03-01">March 2021</time></span>
-                        </div>
-                        <div class="mb-8 p-5 border border-dark bg-grey">
-                            <h2 class="block text-base text-basic italic mb-2 font-bold leading-6 hover:text-code transition-colors">Travel Agency</h2>
-                            <a class="block mb-7 hover:shadow-yellowShadow" href="https://asya-space.github.io/bon-voyage/" target="_blank" rel="noreferrer noopener">
-                                <img width="387" height="334" src="img/pic-3.png" alt="travel-agency">
-                            </a>
-                            <span class="text-xs text-end block text-white font-normal leading-6"><time datetime="2022-07-01">Jul 2022</time>&#xA0;&#8211;&#xA0;<time datetime="2022-12-31">Dec 2022</time></span>
-                        </div>
-                        <div class="mb-8 p-5 border border-dark bg-grey">
-                            <h2 class="block text-base text-basic italic font-bold leading-6 hover:text-code mb-2 transition-colors">Musician Blog</h2>
-                            <a class="block mb-7 hover:shadow-yellowShadow" href="https://asya-space.github.io/musician-blog/" target="_blank" rel="noreferrer noopener">
-                                <img width="387" height="334" src="img/pic-1.png" alt="musician-blog">
-                            </a>
-                            <span class="text-xs text-end block text-white font-normal leading-6"><time datetime="2022-09-10">Sep 2022</time>&#xA0;&#8211;&#xA0;<time datetime="2023-08-01">Aug 2023</time></span>
-                        </div>
-                        <div class="mb-8 p-5 border border-dark bg-grey">
-                            <h2 class="block text-base text-basic italic mb-2 font-bold leading-6 hover:text-code transition-colors">Amazing Hiking</h2>
-                            <a class="block mb-7 hover:shadow-yellowShadow" href="https://asya-space.github.io/amazing-hiking/" target="_blank" rel="noreferrer noopener">
-                                <img width="387" height="334" src="img/pic-2.png" alt="amazing-hiking">
-                            </a>
-                            <span class="text-xs text-end block text-white font-normal leading-6"><time datetime="2023-11-01">Nov 2023</time>&#xA0;&#8211;&#xA0;<time datetime="2024-01-24">Jan 2024</time></span>
-                        </div>
-                        <div class="mb-8 p-5 border border-dark bg-grey relative">
-                            <h2 class="block text-base text-basic italic mb-2 font-bold leading-6 hover:text-code transition-colors">Body mass index calculation</h2>
-                            <code class="inner__func block bg-dark text-stray font-mono p-2 rounded-tl-rounded-br-lg h-[328px] media-maxi:text-[15px] media-huge:text-[12px] media-sweep:hidden">
-                                function bmi(w, h) {<br>
-                                    &nbsp;let indexHeight = Math.pow(h, 2);<br>
-                                    &nbsp;let index = w / indexHeight;<br>
-    
-                                    &nbsp;if(index <= 18.5) {<br>
-                                    &nbsp;&nbsp;return "Underweight";<br>
-                                    &nbsp;} else if(index <= 25.0) {<br>
-                                    &nbsp;&nbsp;return "Normal";<br>
-                                    &nbsp;} else if(index <= 30.0) {<br>
-                                    &nbsp;&nbsp;return "Overweight";<br>
-                                    &nbsp;} else {<br>
-                                    &nbsp;&nbsp;return "Obese";<br>
-                                    &nbsp;}<br>
-                                }
-                            </code>
-                            <p class="hidden media-sweep:block text-white text-base hover:text-stray transition-colors code-btn1">Read more</p>
-                            <dialog class="absolute left-[0rem] max-w-96 h-[300px] popup popup:backdrop:popshadow bg-light p-5 mb-7 outline-0 border border-white relative media-sweep:bottom-[-100rem] media-little:bottom-[-200rem] media-smaller:bottom-[-200rem]" id="code1">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[10px] top-[10px] close-code1 text-stray bg-trans border-trans font-bold">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                                </svg>
-                                <code class="inner__func block bg-dark text-stray font-mono p-2 rounded-tl-rounded-br-lg h-[328px]">
-                                    function bmi(w, h) {<br>
-                                        &nbsp;let indexHeight = Math.pow(h, 2);<br>
-                                        &nbsp;let index = w &#x2044; indexHeight;<br>
-            
-                                        &nbsp;if(index &#x2264; 18.5) {<br>
-                                        &nbsp;&nbsp;return "Underweight";<br>
-                                        &nbsp;} else if(index &#x2264; 25.0) {<br>
-                                        &nbsp;&nbsp;return "Normal";<br>
-                                        &nbsp;} else if(index &#x2264; 30.0) {<br>
-                                        &nbsp;&nbsp;return "Overweight";<br>
-                                        &nbsp;} else {<br>
-                                        &nbsp;&nbsp;return "Obese";<br>
-                                        &nbsp;}<br>
-                                        }
-                                    </code>
-                                </dialog>
-                            <span class="text-xs text-end block text-white font-normal leading-6">Code example</span>
-                        </div>
-                        <div class="mb-8 p-5 border border-dark bg-grey">
-                            <h2 class="block text-base text-basic italic mb-2 font-bold leading-6 hover:text-code transition-colors">Set alarm, function</h2>
-                            <code class="inner__func block bg-dark text-stray font-mono p-2 rounded-tl-rounded-br-lg h-[328px] media-large:text-[14px] media-sweep:hidden">
-                                function setAlarm(employed, vacation) {<br>
-                                    &nbsp;if (employed 	&amp;&amp; !vacation) {<br>
-                                        &nbsp;&nbsp;return true;<br>
-                                        &nbsp;} else if (!employed && vacation) {<br>
-                                            &nbsp;&nbsp;return false;<br>
-                                        &nbsp;} else {<br>
-                                            &nbsp;&nbsp;return false;<br>
-                                        &nbsp;}<br>
-                                    }
-                            </code>
-                            <p class="hidden media-sweep:block text-white text-base hover:text-stray transition-colors code-btn2">Read more</p>
-                            <dialog class="absolute bottom-[-120rem] right-[0rem] max-w-96 h-[300px] popup popup:backdrop:popshadow bg-light p-5 mb-7 outline-0 border border-white relative media-sweep:bottom-[-100rem] media-little:bottom-[-200rem] media-smaller:bottom-[-200rem]" id="code2">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[10px] top-[10px] close-code2 text-stray bg-trans border-trans font-bold">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                                </svg>
-                                <code class="inner__func block bg-dark text-stray font-mono p-2 rounded-tl-rounded-br-lg h-[250px]">
-                                    function setAlarm(employed, vacation) {<br>
-                                        &nbsp;if (employed 	&amp;&amp; !vacation) {<br>
-                                            &nbsp;&nbsp;return true;<br>
-                                            &nbsp;} else if (!employed && vacation) {<br>
-                                                &nbsp;&nbsp;return false;<br>
-                                            &nbsp;} else {<br>
-                                                &nbsp;&nbsp;return false;<br>
-                                            &nbsp;}<br>
-                                        }
-                                </code>
-                            </dialog>
-                            <span class="text-xs text-end block text-white font-normal leading-6">Code example</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="px-12 py-5 bg-light media-little:py-2">
-            <div class="container relative max-w-[80rem] media-sweep:pl-5 media-sweep:pr-5 media-little:pl-3 media-little:pr-3 media-little:gap-3 cursor-default">
-                <div class="grid grid-cols-3 gap-5 min-h-[10rem] media-sweep:grid-cols-2 media-little:grid-cols-1 mb-5">
-                    <div class="mb-2 max-w-[250px]" id="contacts">
-                        <h3 class="mb-2 text-white underline underline-offset-2 text-xl font-bold hover:text-code transition-colors">Contacts</h3>
-                        <ul>
-                            <li>
-                                <div class="flex items-center mb-2">
-                                    <svg class="mr-2.5 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"/>
-                                    </svg>                            
-                                    <a class="a-link text-base text-white font-normal leading-6" aria-label="Contact me to email" href="mailto:star@asyaspace.com">star@asyaspace.com</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex items-center mb-2">
-                                    <svg class="mr-2.5 text-white" width="17" height="17" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M44.45 0H3.55A3.5 3.5 0 0 0 0 3.46v41.07A3.5 3.5 0 0 0 3.54 48h40.9A3.51 3.51 0 0 0 48 44.54V3.46A3.5 3.5 0 0 0 44.45 0Zm-30.2 40.9H7.11V18h7.12v22.9Zm-3.57-26.03a4.13 4.13 0 1 1-.02-8.26 4.13 4.13 0 0 1 .02 8.26ZM40.9 40.9H33.8V29.77c0-2.66-.05-6.08-3.7-6.08-3.7 0-4.27 2.9-4.27 5.89V40.9h-7.1V18h6.82v3.12h.1c.94-1.8 3.26-3.7 6.72-3.7 7.21 0 8.54 4.74 8.54 10.91V40.9Z"
-                                            fill="currentColor"></path>
-                                    </svg>
-                                    <a class="a-link text-base text-white font-normal leading-6" aria-label="Find me on Linkedin" href="https://www.linkedin.com/in/asya-webdev/">in/asya-webdev</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="flex items-center mb-2">
-                                    <svg class="mr-2.5 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" viewBox="0 0 24 24">
-                                        <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"/>
-                                    </svg>
-                                    <a class="a-link text-base text-white font-normal leading-6" href="https://github.com/asya-space" target="_blank" rel="noreferrer noopener">GitHub</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="mb-2">
-                        <form action="user.php" method="POST" name="user_contact">
-                            <div class="flex flex-col max-w-[300px]">
-                                <label for="txtName"></label>
-                                <input class="placeholder:text-dark mb-2 p-2 bg-lightly rounded text-black focus:bg-white hover:bg-white active:bg-white" type="text" name="txtName" id="txtName" placeholder="your name" required="true">
-                                <label for="txtEmail"></label>
-                                <input class="placeholder:text-dark mb-2 p-2 bg-lightly rounded text-black focus:bg-white hover:bg-white active:bg-white" type="email" name="txtEmail" id="txtEmail" placeholder="your@email.com" required="true">
-                                <label for="txtMessage"></label>
-                                <textarea class="placeholder:text-dark mb-2 p-2 bg-lightly rounded text-black focus:bg-white hover:bg-white active:bg-white" name="txtMessage" id="txtMessage" rows="5" cols="33" placeholder="you can leave your message here..." required="true"></textarea>
-                                <input class="focus:bg-code hover:bg-code active:bg-stray w-[120px] self-center p-2 bg-yellow rounded" type="submit" id="submit" name="submit" value="Submit">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="mb-2">
-                        <h3 class="mb-2 max-w-[1rem] tracking-widest mr-5 text-white underline underline-offset-2 text-xl font-bold hover:text-code transition-colors">Src:</h3>
-                        <ul class="flex media-large:flex-wrap flex-col">
-                            <li class="flex mr-5">
-                                <img class="mr-2" src="img/svg-codewars.svg" width="17" height="17" alt="codewars">
-                                <a class="a-link block mb-1 text-base text-white font-normal leading-6" href="https://www.codewars.com/users/AsyaSpace" aria-label="Find my code example on Codewars" target="_blank" rel="noreferrer noopener">Codewars</a>
-                            </li>
-                            <li class="flex mr-5">
-                                <img class="mr-2" src="img/svg-freepik.svg" width="17" height="17" alt="freepik">
-                                <a class="a-link block mb-1 text-base text-white font-normal leading-6" href="https://www.freepik.com/" target="_blank" rel="noreferrer noopener">Freepic</a>
-                            </li>
-                            <li class="flex mr-5">
-                                <img class="mr-2" src="img/svg-unsplash.svg" width="17" height="17" alt="unsplash">
-                                <a class="a-link block mb-1 text-base text-white font-normal leading-6" href="https://unsplash.com/" target="_blank" rel="noreferrer noopener">Unsplash</a>
-                            </li>
-                            <li class="flex">
-                                <img class="mr-2" src="img/svg-tailwind.svg" width="17" height="17" alt="heroicons">
-                                <a class="a-link block mb-1 text-base text-white font-normal leading-6" href="https://heroicons.com/" target="_blank" rel="noreferrer noopener">Heroicons</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <p class="text-fonta font-normal self-end">&#169; made in 2025</p>
-                </div>
-                <div class="up-btn absolute top-[10px] right-[-15px]">
-                    <a href="#back-top">
-                        <svg class="text-white animate-bounce" width="17" height="17" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
-                      </svg>
-                    </a>                                               
-                </div>
+                    </section>
+                </main>
+                <!-- END CONTENT -->
             </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/index.js"></script>
+        </div>
+        <script type="module" src="./src/main.js"></script>
     </body>
+    
 </html>
