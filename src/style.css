@@ -30,6 +30,7 @@ body::after {
 @layer base {
     body {
         @apply bg-zinc-950 text-zinc-100;
+        font-family: 'Titillium Web', sans-serif;
     }
 
     html {
@@ -56,5 +57,11 @@ body::after {
 
     .btn-primary {
         @apply bg-violet-600 hover:bg-violet-500;
+    }
+}
+
+@media (width <= 640px) {
+    .nav-item {
+        margin-bottom: 15px;
     }
 }
