@@ -18,19 +18,19 @@
 
             <!-- CONTENT -->
             <div class="relative z-10">
-                <header class="header bg-trans mb-10 max-width-[100%] mt-4" id="back-top">
-                    <div class="container py-2 px-12 max-w-[80rem] media-sweep:pl-5 media-sweep:pr-5 media-little:pl-3 media-little:pr-3">
+                <header class="header bg-trans mb-10 max-w-full mt-4" id="back-top">
+                    <div class="container py-2 px-12">
                         <div class="flex justify-between">
                             <div class="logo cursor-default flex items-baseline gap-1">
                                 <div><img src="/logo.webp" alt="alpha-letter" width="34" height="30"></div>
                                 <h2 class="text-xl text-white font-bold tracking-wider">sya L.</h2>
                             </div>
-                            <nav class="nav flex ml-auto media-sweep:hidden media-sweep:ml-0 items-end">
-                                <ul class="flex media-maxi:max-w-[600px] media-maxi:flex-wrap media-sweep:flex-col">
-                                    <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#about">About</a></li>
-                                    <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#projects">Projects</a></li>
-                                    <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#contacts">Contact Me</a></li>
-                                    <li class="nav-item mr-9 media-sweep:mb-5"><a class="text-white hover:text-code" href="#github">GitHub</a></li>
+                            <nav class="nav flex ml-auto items-end">
+                                <ul class="flex">
+                                    <li class="nav-item mr-9"><a class="text-white" href="#about">About</a></li>
+                                    <li class="nav-item mr-9"><a class="text-white" href="#projects">Projects</a></li>
+                                    <li class="nav-item mr-9"><a class="text-white" href="#contacts">Contact Me</a></li>
+                                    <li class="nav-item mr-9"><a class="text-white" href="#github">GitHub</a></li>
                                 </ul>
                             </nav>
                             <div class="hidden burger media-sweep:flex media-sweep:flex-col media-sweep:justify-between w-[25px] h-[20px] ml-auto cursor-pointer">
@@ -39,7 +39,7 @@
                                 <div class="burger__line w-[25px] h-[2px] bg-white"></div>
                             </div>
                         </div>
-                        <div class="hidden close-menu media-sweep:absolute top-[2px] right-[10px]">
+                        <div class="hidden close-menu top-[2px] right-[10px]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/>
                             </svg>
                         </div>
@@ -47,9 +47,14 @@
                 </header>
                 
                 <main>
-                    <section class="hero" id="about">
-                        <div>
-
+                    <section class="section hero py-16 md:py-24 min-h-screen" id="about">
+                        <div class="container text-white flex flex-col items-center  mt-8">
+                            <div class="flex items-baseline mb-8">
+                                <img src="/logo.webp" alt="logo" width="54" height="48">
+                                <h2 class="text-5xl">sya L.</h2>
+                            </div>
+                            <h1 class="text-6xl mb-8 sm:text-5xl lg:text-4xl font-bold">Frontend Developer</h1>
+                            <p class="text-center text-2xl :text-lg max-w-2xl">Frontend Developer focused on creating responsive websites and interactive user experiences with modern web technologies.</p>
                         </div>
                     </section>
                 </main>
