@@ -1,22 +1,22 @@
 const projects = [
         {
                 title: "Musician Blog",
-                image: '../../assets/musician.png',
+                image: '/musician.png',
                 url: 'https://musician-blog-boor.vercel.app/'
         },
         {
                 title: "Shelter",
-                image: '../../assets/shelter.png',
+                image: '/shelter.png',
                 url: 'https://shelter-zeta.vercel.app/'
         },
         {
                 title: "Symbol Converter",
-                image: '../../assets/converter.png',
+                image: '/converter.png',
                 url: 'https://asya-space.github.io/symbol-converter/'
         },
         {
                 title: "Little Fishies Game",
-                image: '../../assets/fishies.png',
+                image: '/fishies.png',
                 url: 'https://little-fishies-game.vercel.app/'
         },
 
@@ -26,8 +26,29 @@ const list = document.querySelector('.projects-list');
 projects.forEach(project => {
         list.insertAdjacentHTML(
                 'beforeend',
-                `<li class="z-40">
-                        <h3 class="text-white z-40 text-2xl">${project.title}</h3>
+                `<li class="projects-item group h-[300px] rounded-2xl border border-zinc-800 flex items-center justify-center relative overflow-hidden cursor-pointer transition duration-300">
+                        <a href=${project.url} target="_blank">
+                           <img class="image absolute rounded-2xl inset-0 z-1 w-full h-full object-cover opacity-0 group-hover:opacity-30 group-active:opacity-100 transition duration-300" src=${project.image}>
+                           <h3 class="relative z-2 item-title text-2xl group-hover:text-violet-400 group-hover transition duration-300">${project.title}</h3>
+                        </a>
                 </li>`
         );
+})
+
+list.addEventListener('click', (event) => {
+        const item = event.target.closest('li');
+        if (item) {
+                const title = item.querySelector('h3');
+                if (title && !title.dataset.originalText) {
+                        title.dataset.originalText = title.textContent;
+                        title.textContent = 'viewed (you can click again)';
+                        title.style.color = 'rgba(142, 81, 255, 0.67)';
+                        
+                        setTimeout(() => {
+                                title.textContent = title.dataset.originalText;
+                                
+                                delete title.dataset.originalText;
+                        }, 10000)
+                }
+        }
 })
