@@ -28,13 +28,74 @@ body::after {
 }
 
 .curcuit-board {
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 10%,
+        rgba(0, 0, 0, 0.3) 25%,
+        black 45%
+    );
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 10%,
+        rgba(0, 0, 0, 0.3) 25%,
+        black 45%
+    );
     background-image:
-        linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
-        repeating-linear-gradient(0deg, transparent, transparent 19px, rgba(34, 197, 94, 0.15) 19px, rgba(34, 197, 94, 0.15) 20px, transparent 20px, transparent 39px, rgba(34, 197, 94, 0.15) 39px, rgba(34, 197, 94, 0.15) 40px),
-        repeating-linear-gradient(90deg, transparent, transparent 19px, rgba(34, 197, 94, 0.15) 19px, rgba(34, 197, 94, 0.15) 20px, transparent 20px, transparent 39px, rgba(34, 197, 94, 0.15) 39px, rgba(34, 197, 94, 0.15) 40px),
-        radial-gradient(circle at 20px 20px, rgba(16, 185, 129, 0.18) 2px, transparent 2px),
-        radial-gradient(circle at 40px 40px, rgba(16, 185, 129, 0.18) 2px, transparent 2px);
-    background-size: '40px 40px, 40px 40px, 40px 40px, 40px 40px';
+        linear-gradient(
+            to bottom,
+            transparent 0%,
+            rgba(0, 0, 0, 0.15) 20%,
+            rgba(0, 0, 0, 0.3) 40%,
+            rgba(0, 0, 0, 1) 100%
+        ),
+
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 19px,
+            rgba(169, 85, 247, 0.29) 19px,
+            rgba(168, 85, 247, 0.29) 20px,
+            transparent 20px,
+            transparent 39px,
+            rgba(168, 85, 247, 0.29) 39px,
+            rgba(168, 85, 247, 0.29) 40px
+        ),
+
+        repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 19px,
+            rgba(236, 72, 153, 0.29) 19px,
+            rgba(236, 72, 153, 0.29) 20px,
+            transparent 20px,
+            transparent 39px,
+            rgba(236, 72, 153, 0.29) 39px,
+            rgba(236, 72, 153, 0.29) 40px
+        ),
+
+        radial-gradient(
+            circle at 20px 20px,
+            rgba(99, 9, 127, 0.664) 2px,
+            transparent 2px
+        ),
+
+        radial-gradient(
+            circle at 40px 40px,
+            rgba(236, 72, 154, 0.421) 2px,
+            transparent 2px
+        );
+    background-size: 100%, 40px 40px, 40px 40px, 40px 40px, 40px 40px;
+}
+
+.projects-item:hover {
+    box-shadow: 
+    0 0 5px rgba(255, 0, 92, 0.3), 
+    0 0 10px rgba(255, 0, 92, 0.3), 
+    0 0 15px rgba(255, 0, 92, 0.3), 
+    0 0 20px rgba(122, 0, 153, 0.7), 
+    0 0 30px rgba(122, 0, 153, 0.7);
 }
 
 @layer base {
