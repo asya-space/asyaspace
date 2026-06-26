@@ -130,6 +130,10 @@ body::after {
     img {
         @apply block max-w-full;
     }
+
+    footer {
+        font-family: "Space Mono", monospace;
+    }
 }
 
 @layer components {
@@ -139,14 +143,6 @@ body::after {
 
     .section {
         @apply py-16 md:py-24;
-    }
-
-    .btn {
-        @apply px-4 py-2 rounded-lg font-medium transition;
-    }
-
-    .btn-primary {
-        @apply bg-violet-600 hover:bg-violet-500;
     }
 }
 
