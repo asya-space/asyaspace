@@ -26,10 +26,10 @@ const list = document.querySelector('.projects-list');
 projects.forEach(project => {
     list.insertAdjacentHTML(
         'beforeend',
-        `<li class="projects-item group h-[300px] rounded-2xl border border-zinc-800 flex items-center justify-center relative overflow-hidden cursor-pointer transition duration-300">
+        `<li class="projects-item group min-h-64 min-w-3xs rounded-2xl border border-zinc-800 flex items-center justify-center relative overflow-hidden cursor-pointer transition duration-300">
             <a class="items-link" href=${project.url} target="_blank">
             	<img class="image absolute rounded-2xl inset-0 z-1 w-full h-full object-cover opacity-0 group-hover:opacity-30 group-active:opacity-100 transition duration-300" src=${project.image}>
-                <h3 class="title-default relative z-2 group-hover transition duration-300">${project.title}</h3>
+                <h3 class="title-default text-center relative z-2 group-hover transition duration-300">${project.title}</h3>
             </a>
         </li>`
     );
