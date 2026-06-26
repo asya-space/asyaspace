@@ -108,8 +108,14 @@ body::after {
 
 .title-active {
     font-size: var(--text-2xl);
+    text-align: center;
     color: rgba(166, 132, 255, 0.7);
 }
+
+.items-link:active .title-default,
+.items-link:active .title-active {
+    opacity: 0;
+} 
 
 @layer base {
     body {
