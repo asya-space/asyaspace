@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="relative min-h-screen overflow-hidden bg-black">
@@ -28,7 +29,7 @@
                             <nav class="nav flex ml-auto items-end max-sm:hidden">
                                 <ul class="nav__list flex max-sm:flex-col">
                                     <li class="nav-item mr-9">
-                                        <a class="active text-white transition-colors duration-300 focus:text-amber-300 hover:text-yellow-300 active:text-amber-400" href="#about">About</a>
+                                        <a class="active text-white transition-colors duration-300 focus:text-amber-300 hover:text-yellow-300 active:text-amber-400" href="#home">About</a>
                                     </li>
                                     <li class="nav-item mr-9">
                                         <a class="text-white transition-colors duration-300 focus:text-amber-300 hover:text-yellow-300 active:text-amber-400" href="#projects">Projects</a>
@@ -37,8 +38,8 @@
                                         <a class="text-white transition-colors duration-300 focus:text-amber-300 hover:text-yellow-300 active:text-amber-400" href="#contacts">Contact Me</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="text-white" href="#github">
-                                            <img src="/icons/github-icon.svg">
+                                        <a class="text-white" href="https://github.com/asya-space" target="_blank">
+                                            <img src="/icons/github-icon.svg" alt="github">
                                         </a>
                                     </li>
                                 </ul>
@@ -57,7 +58,7 @@
                 </header>
                 
                 <main>
-                    <section class="section hero py-15" id="about">
+                    <section class="section hero pt-15 pb-10" id="home">
                         <div class="container text-white flex flex-col justify-between mb-8 min-h-full">
                             <div class="flex mb-8 flex-nowrap self-center items-baseline">
                                 <img src="/logo.webp" alt="logo" width="54" height="48">
@@ -69,34 +70,34 @@
                             <div class="flex max-w-full pt-20 md:pt-32">
                                 <ul class="mt-6 flex w-full justify-evenly max-sm:flex-wrap px-4 space-x-4 space-y-5">
                                     <li>
-                                        <img class="opacity-75" src="/icons/html-icon.svg" width="30" height="30px" alt="html-logo">
+                                        <img class="opacity-75" src="/icons/html-icon.svg" width="30" height="30" alt="html-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/css-icon.svg" width="30" height="30px" alt="css-logo">
+                                        <img class="opacity-75" src="/icons/css-icon.svg" width="30" height="30" alt="css-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/figma-icon.svg" width="30" height="30px" alt="figma-logo">
+                                        <img class="opacity-75" src="/icons/figma-icon.svg" width="30" height="30" alt="figma-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/git-icon.svg" width="30" height="30px" alt="git-logo">
+                                        <img class="opacity-75" src="/icons/git-icon.svg" width="30" height="30" alt="git-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/js-icon.svg" width="30" height="30px" alt="JavaScript-logo">
+                                        <img class="opacity-75" src="/icons/js-icon.svg" width="30" height="30" alt="JavaScript-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/nginx-icon.svg" width="30" height="30px" alt="Nginx-logo">
+                                        <img class="opacity-75" src="/icons/nginx-icon.svg" width="30" height="30" alt="Nginx-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/node-icon.svg" width="30" height="30px" alt="NodeJS-logo">
+                                        <img class="opacity-75" src="/icons/node-icon.svg" width="30" height="30" alt="NodeJS-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/npm-icon.svg" width="30" height="30px" alt="NPM-logo">
+                                        <img class="opacity-75" src="/icons/npm-icon.svg" width="30" height="30" alt="NPM-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/react-icon.svg" width="30" height="30px" alt="React-logo">
+                                        <img class="opacity-75" src="/icons/react-icon.svg" width="30" height="30" alt="React-logo">
                                     </li>
                                     <li>
-                                        <img class="opacity-75" src="/icons/tailwind-icon.svg" width="30" height="30px" alt="Tailwind-logo">
+                                        <img class="opacity-75" src="/icons/tailwind-icon.svg" width="30" height="30" alt="Tailwind-logo">
                                     </li>
                                 </ul>
                             </div>
@@ -110,11 +111,29 @@
                         </div>
                     </section>
                 </main>
+                <footer class="py-15" id="contacts">
+                    <div class="container max-w-2xl">
+                        <h3 class="text-center text-gray-400 mb-8">Let's build something together.</h3>
+                        <ul class="flex justify-between mb-8 space-x-4">
+                            <li>
+                                <a class="text-gray-400" href="https://www.linkedin.com/in/asya-webdev/" target="_blank">
+                                    <img src="/icons/footer-linkedin.svg" alt="linkedin">Linkedin</a>
+                                </li>
+                            <li>
+                                <a class="text-gray-400" href="mailto:asyafrontend@gmail.com">
+                                    <img src="/icons/footer-email.svg" alt="email">Email</a></li>
+                            <li>
+                                <a class="text-gray-400" href="https://github.com/asya-space" target="_blank">
+                                    <img src="/icons/footer-github.svg" alt="github">GitHub</a></li>
+                        </ul>
+                        <p class="text-center text-gray-400 mb-8">Thanks for visiting.</p>
+                        <p class="text-center flex justify-center"><img class="mr-5" src="/icons/footer-copy.svg" width="20" height="20" alt="copyright">2026 Asya L.</p>
+                    </div>
+                </footer>
                 <!-- END CONTENT -->
-                </div>
+                
             </div>
         </div>
         <script type="module" src="./src/main.js"></script>
     </body>
-    
 </html>
