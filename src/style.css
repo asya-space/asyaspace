@@ -90,12 +90,25 @@ body::after {
 }
 
 .projects-item:hover {
-    box-shadow: 
-    0 0 5px rgba(255, 0, 92, 0.3), 
-    0 0 10px rgba(255, 0, 92, 0.3), 
-    0 0 15px rgba(255, 0, 92, 0.3), 
-    0 0 20px rgba(122, 0, 153, 0.7), 
-    0 0 30px rgba(122, 0, 153, 0.7);
+    box-shadow: 0 0 10px rgba(255, 0, 92, 0.3), 
+                0 0 15px rgba(255, 0, 92, 0.3), 
+                0 0 20px rgba(122, 0, 153, 0.7), 
+                0 0 30px rgba(122, 0, 153, 0.7);
+}
+
+.title-default {
+    font-size: var(--text-2xl);
+    transform: all .3s ease-in-out;
+}
+
+.items-link:hover .title-default {
+    text-shadow: 2px 2px 5px rgb(225, 113, 0),
+                2px 2px 5px rgb(225, 113, 0);
+}
+
+.title-active {
+    font-size: var(--text-2xl);
+    color: rgba(166, 132, 255, 0.7);
 }
 
 @layer base {
