@@ -61,9 +61,9 @@ To build for production:
 ```
 npm run build
 ```
-🎯 What I Learned
+🎯 What I learned
 - Working with Tailwind utility-first styling
-- Setting up Vite for fast development workflow
+- Setting up Vite for a fast development workflow
 - Organizing vanilla JS project architecture
   
 📬 Contact
@@ -71,6 +71,5 @@ npm run build
 - Email: asyafrontend@gmail.com
   
 🪐 Notes
-This project is part of my personal learning and portfolio development
 This project is part of my personal learning and portfolio development.
 
