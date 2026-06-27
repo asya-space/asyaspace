@@ -115,7 +115,23 @@ body::after {
 .items-link:active .title-default,
 .items-link:active .title-active {
     opacity: 0;
-} 
+}
+
+
+.footer-img:hover,
+.footer-link:hover {
+   animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.footer-img:active,
+.footer-link:active {
+    animation-play-state: paused;
+}
 
 @layer base {
     body {
